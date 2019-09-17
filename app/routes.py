@@ -23,3 +23,4 @@ def results():
     output = model.shout(userdata['nickname'])
     print(output)
     return render_template('results.html', output = output)
+#COMMENT
